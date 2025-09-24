@@ -96,7 +96,7 @@ if escolha_destino in destinos:
     print('') # Organização
 
     dias = int(input('Quantos dias pretende ficar? '))
-    gasto_total = custo[0] + (custo_diaria * dias)
+    gasto_total = custo[0] + (custo_diaria * dias) # transporte + (custo da hospedagem * os dias)
 
     print('')
     print('=== RESUMO DO PLANO DE VIAGEM ===')
