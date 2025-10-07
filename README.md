@@ -11,12 +11,16 @@ Abordagem centrada no usuário para resolver problemas de forma criativa e colab
 ### 2. Lógica de Programação
 Base fundamental da programação que ensina a pensar de forma estruturada e resolver problemas com algoritmos. Inclui conceitos como variáveis, operadores, estruturas de controle e funções.
 
+### 3. Adicionais
+- Aulas e PDFs sobre segurança
+
 ## Organização do Repositório
 
 ```
 .
 ├── Design_Thinking/
 ├── Lógica_de_programação/
+├── Segurança/
 ├── links.txt
 └──README.md
 ```
