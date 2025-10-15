@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 30px;
+            max-width: 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 40px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Digite seu nome">
+
+            <br><br>
+
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="Digite sua senha" required minlength="6">
+
+            <br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
