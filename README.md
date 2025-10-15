@@ -1,5 +1,3 @@
-
-
 # Trilha TI CRIATIVA Full-Stack
 
 Repositório de estudos e projetos da **Trilha TI Criativa Full-Stack do Porto Digital, em parceria com o SENAC e o Governo de Pernambuco**! Aqui você encontrará os materiais, exercícios e projetos que estou desenvolvendo ao longo da trilha.
@@ -43,3 +41,7 @@ Durante a trilha, estou explorando temas essenciais para quem quer atuar como de
 ├── links.txt
 └──README.md
 ```
+
+## 📄 Licença
+
+Este projeto está licenciado sob os termos da [Licença MIT](./LICENSE), com cláusula adicional de atribuição.
