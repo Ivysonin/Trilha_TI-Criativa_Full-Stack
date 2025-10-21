@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfaf6;
+    color: #333;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ca993d;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 20px 40px;
+}
+
+.destaque {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #ca993d, #dbb367);
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+
+.destaque h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.cardapio h2, .sobre h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #ca993d;
+}
+
+.card {
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card i {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: #ca993d;
+}
+
+.sobre p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+}
+
+footer {
+    background-color: #ca993d;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 60px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    cursor: pointer;
+    color: rgba(0,0,0,0.5);
+}
+
+.pedido {
+  background-color: #fff8e6;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.pedido h2 {
+  text-align: center;
+  color: #ca993d;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.pedido form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pedido label {
+  font-weight: 600;
+  color: #333;
+}
+
+.pedido input,
+.pedido select,
+.pedido textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 1em;
+}
+
+.pedido button {
+  background-color: #ca993d;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pedido button:hover {
+  background-color: #b07f2f;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 5px;
+    }
+
+    header > div {
+        font-size: 1.2em;
+        margin-bottom: 0.5%;
+    }
+
+    header nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header nav a {
+        font-size: 0.5em;
+        padding: 8px 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 60px;
+    }
+
+    .destaque h1 {
+        font-size: 1.8em;
+    }
+}

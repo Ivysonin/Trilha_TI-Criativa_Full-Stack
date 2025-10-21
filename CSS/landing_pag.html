@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelaria Come e NÃO engorda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="landing_pag.css">
+</head>
+<body>
+    <header>
+        <div>🥟 Pastelaria Come e NÃO engorda</div>
+        <nav>
+            <a href="#destaque">Início</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#pedido">Faça seu pedido</a>
+            <a href="#sobre">Sobre Nós</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="destaque" class="destaque">
+            <h1>O sabor que conquista Caruaru!</h1>
+            <p>Pastéis artesanais com recheios generosos e crocância incomparável.</p>
+        </section>
+
+        <section id="cardapio" class="cardapio">
+            <h2>Nosso Cardápio</h2>
+            <div class="card">🧀 Pastel de Queijo</div>
+            <div class="card">🍗 Pastel de Frango</div>
+            <div class="card">🍗🧀 Pastel de Frango com Queijo</div>
+            <div class="card">🍕 Pastel de Pizza</div>
+            <div class="card">🥩 Pastel de Carne</div>
+            <div class="card">🍗 Coxinha</div>
+        </section>
+
+        <section id="pedido" class="pedido">
+            <h2>Faça seu Pedido</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="sabor">Escolha o sabor:</label>
+                <select id="sabor" name="sabor" required>
+                <option value="">Selecione...</option>
+                <option value="queijo">🧀 Queijo</option>
+                <option value="frango">🍗 Frango</option>
+                <option value="frango_queijo">🍗🧀 Frango com Queijo</option>
+                <option value="pizza">🍕 Pizza</option>
+                <option value="carne">🥩 Carne</option>
+                <option value="coxinha">🍗 Coxinha</option>
+                </select>
+
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" name="quantidade" min="1" required>
+
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes" name="observacoes" rows="4" placeholder="Ex: sem cebola, com ketchup..."></textarea>
+
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </section>
+
+
+        <section id="sobre" class="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Desde 2024, a Pastelaria Come e NÃO engorda vem encantando os paladares de Caruaru com receitas exclusivas e atendimento acolhedor. Nossa missão é oferecer uma experiência gastronômica memorável, com ingredientes frescos e muito carinho em cada pastel.</p>
+        </section>
+    </div>
+
+    <footer>
+        © 2025 Pastelaria Come e NÃO engorda<br>
+        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="#"><i class="fas fa-envelope"></i> Contato</a>
+    </footer>
+</body>
+</html>
