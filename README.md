@@ -25,7 +25,7 @@ Durante a trilha, estou explorando temas essenciais para quem quer atuar como de
 
 - **Lógica de Programação**: algoritmos, variáveis, estruturas de controle e funções(com Python).
 
-- **Front-End**: HTML5
+- **Front-End**: HTML5, CSS3, JS
 
 - **Segurança e Internet**: noções básicas sobre redes, protocolos e proteção de dados.
 
@@ -33,9 +33,11 @@ Durante a trilha, estou explorando temas essenciais para quem quer atuar como de
 
 ```
 .
+├── CSS/
 ├── Design_Thinking/
 ├── HTML/
 ├── Internet/
+├── JS/
 ├── Lógica_de_programação/
 ├── Segurança/
 ├── links.txt
