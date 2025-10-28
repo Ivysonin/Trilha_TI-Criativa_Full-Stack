@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #5e53ff59;
+    color: #333;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 1300px;
+    background-color: #2500FA;
+    color: rgb(0, 1, 70);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header div {
+    color:  rgb(0, 1, 70);
+}
+
+header nav a {
+    color: rgb(0, 1, 70);
+    margin-left: 50px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    color: #7572ff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 20px 40px;
+}
+
+.inicio {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #7572ff, #2500FA);
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+
+.inicio h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: rgb(0, 1, 70);
+}
+
+.inicio p {
+    color: black;
+}
+
+.servicos h2, .sobre h2, .missao h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: rgb(0, 1, 70);
+}
+
+.card {
+    background-color: #7572ff;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: black;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.card i {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: #7572ff;
+}
+
+.sobre p, .missao p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    color: black;
+}
+
+footer {
+    background-color: #2500FA;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 60px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    cursor: pointer;
+    color: #7572ff;
+}
+
+.contato {
+  background-color: #fff8e6;
+  padding: 40px 20px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.contato h2 {
+  text-align: center;
+  color: #7572ff;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.contato form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contato label {
+  font-weight: 600;
+  color: rgb(0, 1, 70);
+}
+
+.contato input,
+.contato select,
+.contato textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 1em;
+}
+
+.contato button {
+  background-color: #7572ff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contato button:hover {
+  background-color: #2500FA;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 5px;
+    }
+
+    header > div {
+        font-size: 1.2em;
+        margin-bottom: 0.5%;
+    }
+
+    header nav {
+        width: 32%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header nav a {
+        font-size: 0.5em;
+        padding: 8px 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 60px;
+    }
+
+    .inicio h1 {
+        font-size: 1.8em;
+    }
+}
