@@ -33,6 +33,7 @@ Durante a trilha, estou explorando temas essenciais para quem quer atuar como de
 
 ```
 .
+├── Atividade_avaliativa/
 ├── CSS/
 ├── Design_Thinking/
 ├── HTML/
