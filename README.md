@@ -27,6 +27,8 @@ Durante a trilha, estou explorando temas essenciais para quem quer atuar como de
 
 - **Front-End**: HTML5, CSS3, JS
 
+- **Controle de Versão**: Git e GitHub.
+
 - **Segurança e Internet**: noções básicas sobre redes, protocolos e proteção de dados.
 
 ## Organização do Repositório
