@@ -3,3 +3,6 @@ https://www.w3schools.com
 
 Site para fazer documentação(arquivos README):
 https://stackedit.io/app#
+
+Site para achar ícones:
+https://www.flaticon.com/br/
