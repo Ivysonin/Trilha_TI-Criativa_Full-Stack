@@ -16,6 +16,7 @@ Base fundamental da programação que ensina a pensar de forma estruturada e res
 ### 4. Adicionais
 - Aulas e PDFs sobre segurança
 - Aulas e PDFs sobre internet
+- Aulas e PDFs sobre Git/GitHub
 
 ## Tecnologias e Conceitos Aprendidos
 
@@ -38,6 +39,7 @@ Durante a trilha, estou explorando temas essenciais para quem quer atuar como de
 ├── Atividade_avaliativa/
 ├── CSS/
 ├── Design_Thinking/
+├── GIT_GITHUB/
 ├── HTML/
 ├── Internet/
 ├── JS/
