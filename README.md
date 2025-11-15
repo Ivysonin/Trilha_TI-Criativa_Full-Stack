@@ -28,6 +28,8 @@ Durante a trilha, estou explorando temas essenciais para quem quer atuar como de
 
 - **Front-End**: HTML5, CSS3, JS
 
+- **Back-End**: JAVA, POO
+
 - **Controle de Versão**: Git e GitHub.
 
 - **Segurança e Internet**: noções básicas sobre redes, protocolos e proteção de dados.
@@ -42,6 +44,7 @@ Durante a trilha, estou explorando temas essenciais para quem quer atuar como de
 ├── GIT_GITHUB/
 ├── HTML/
 ├── Internet/
+├── JAVA/POO/
 ├── JS/
 ├── Lógica_de_programação/
 ├── Segurança/
