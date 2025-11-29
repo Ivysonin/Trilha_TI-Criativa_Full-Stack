@@ -52,6 +52,11 @@ Durante a trilha, estou explorando temas essenciais para quem quer atuar como de
 └──README.md
 ```
 
+## Observações
+Algumas atividades estão em outros repositórios. Segue os links abaixo:
+
+- [curso_API](https://github.com/Ivysonin/curso_API)
+
 ## 📄 Licença
 
 Este projeto está licenciado sob os termos da [Licença MIT](./LICENSE), com cláusula adicional de atribuição.
