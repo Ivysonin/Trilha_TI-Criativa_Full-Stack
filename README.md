@@ -56,6 +56,7 @@ Durante a trilha, estou explorando temas essenciais para quem quer atuar como de
 Algumas atividades estão em outros repositórios. Segue os links abaixo:
 
 - [curso_API](https://github.com/Ivysonin/curso_API)
+- [produtos_API](https://github.com/Ivysonin/produtos_API)
 
 ## 📄 Licença
 
