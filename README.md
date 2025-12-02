@@ -28,7 +28,7 @@ Durante a trilha, estou explorando temas essenciais para quem quer atuar como de
 
 - **Front-End**: HTML5, CSS3, JS
 
-- **Back-End**: JAVA, POO
+- **Back-End**: JAVA, POO, Spring Boot
 
 - **Controle de Versão**: Git e GitHub.
 
